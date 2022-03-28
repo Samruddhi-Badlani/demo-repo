@@ -1,0 +1,95 @@
+*
+{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-image: url("images/brown_background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  
+   }
+
+.cardsBox{
+    display: flex;
+    flex-direction:row ;
+    flex-wrap: wrap;
+}
+#logHead{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.logHeadItem{
+    display: block;
+    margin:5px;
+   
+    padding: 4px;
+}
+a.logHeadItem {
+    text-decoration: none;
+    color:black;
+    border: 2px solid black;
+   
+}
+a.logHeadItem:hover {
+    background-color: rgb(80, 206, 80);
+   
+}
+.card{
+    padding: 10px;
+    margin:4px;
+    height:auto;
+    width:300px;
+}
+/* Split the screen in half */
+.navbar navbar-expand-lg navbar-light bg-light
+{
+    position: fixed;
+}
+  /* Split the screen in half */
+
+  
+  /* Control the left side */
+  .left {
+    left: 0;
+    background-color:#125C13;
+  }
+  
+  /* Control the right side */
+  .right {
+    right: 0;
+    background-color:#3E7C17; 
+  }
+  
+
+
+
+  .notification {
+    
+    color: white;
+    text-decoration: none;
+    padding: 4px 4px;
+    position: relative;
+    display: inline-block;
+    border-radius: 2px;
+  }
+  
+  .notification:hover {
+    background: red;
+  }
+  
+  .notification .badge {
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    padding: 5px 10px;
+    border-radius: 50%;
+    background: red;
+    color: white;
+  }
+  
+  
+ 
